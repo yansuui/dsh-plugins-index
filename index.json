@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My plugin market",
+    "zh": "我的插件市场"
+  },
+  "description": {
+    "en": "A private market served from this machine. Every entry installs from a commit in its own Git repository.",
+    "zh": "在本机提供的私有插件市场，每个条目都从它自己的 Git 仓库中的某个提交安装。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      },
+      "session": {
+        "title": {
+          "en": "Sessions",
+          "zh": "会话"
+        }
+      },
+      "integration": {
+        "title": {
+          "en": "Integrations",
+          "zh": "集成"
+        }
+      }
+    },
+    "labels": {
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      },
+      "personal": {
+        "title": {
+          "en": "Personal",
+          "zh": "自用"
+        }
+      }
+    },
+    "sortKeys": {
+      "updated": {
+        "title": {
+          "en": "Updated",
+          "zh": "更新时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@local/subagent-studio",
+      "title": {
+        "en": "Subagent Studio",
+        "zh": "子代理工坊"
+      },
+      "description": {
+        "en": "Configure named subagents with their own instructions and model, let DSH delegate to them, and follow each subagent's conversation in a dedicated view.",
+        "zh": "配置带独立指令与模型的具名子代理，让 DSH 随时调用它们，并在专属视图中查看每个子代理的对话。"
+      },
+      "icon": "icons/local--subagent-studio.svg",
+      "repository": {
+        "url": "https://github.com/yansuui/dsh-plugins.git",
+        "directory": "subagent-studio"
+      },
+      "metadata": {
+        "labels": [
+          "experimental",
+          "personal"
+        ],
+        "sortKeys": {
+          "updated": 1792462365
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792462365,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yansuui/dsh-plugins.git",
+            "commit": "6cf242232ccea3a99ae53379683eaf56b9cabf23",
+            "path": "subagent-studio"
+          }
+        }
+      ]
+    }
+  ]
+}
