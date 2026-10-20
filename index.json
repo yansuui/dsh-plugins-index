@@ -76,8 +76,8 @@
         "directory": "subagent-studio"
       },
       "metadata": {
+        "category": "ui",
         "labels": [
-          "experimental",
           "personal"
         ],
         "sortKeys": {
