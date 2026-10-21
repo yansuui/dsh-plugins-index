@@ -96,6 +96,42 @@
           }
         }
       ]
+    },
+    {
+      "name": "@local/usage-meter",
+      "title": {
+        "en": "Token usage",
+        "zh": "Token 用量"
+      },
+      "description": {
+        "en": "Counts the tokens every session in this profile spent: totals, per model, per day, and the sessions that used the most.",
+        "zh": "统计本配置文件内所有会话消耗的 token：总计、按模型、按日，以及用量最高的会话。"
+      },
+      "icon": "icons/local--usage-meter.svg",
+      "repository": {
+        "url": "https://github.com/yansuui/dsh-plugins.git",
+        "directory": "usage-meter"
+      },
+      "metadata": {
+        "labels": [
+          "personal"
+        ],
+        "sortKeys": {
+          "updated": 1792467685
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792467685,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yansuui/dsh-plugins.git",
+            "commit": "56bc0c2db432e277daf51cb11c81c77df14b79f9",
+            "path": "usage-meter"
+          }
+        }
+      ]
     }
   ]
 }
