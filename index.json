@@ -76,22 +76,22 @@
         "directory": "subagent-studio"
       },
       "metadata": {
+        "category": "ui",
         "labels": [
-          "experimental",
           "personal"
         ],
         "sortKeys": {
-          "updated": 1792462365
+          "updated": 1792739371
         }
       },
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1792462365,
+          "publishTimestamp": 1792739371,
           "source": {
             "type": "git",
             "url": "https://github.com/yansuui/dsh-plugins.git",
-            "commit": "6cf242232ccea3a99ae53379683eaf56b9cabf23",
+            "commit": "3a35fc1be6a8424068b4e1f4132c42f685da2805",
             "path": "subagent-studio"
           }
         }
