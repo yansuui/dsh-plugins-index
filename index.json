@@ -113,22 +113,60 @@
         "directory": "usage-meter"
       },
       "metadata": {
+        "category": "ui",
         "labels": [
           "personal"
         ],
         "sortKeys": {
-          "updated": 1792467685
+          "updated": 1792739268
         }
       },
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1792467685,
+          "publishTimestamp": 1792739268,
           "source": {
             "type": "git",
             "url": "https://github.com/yansuui/dsh-plugins.git",
-            "commit": "56bc0c2db432e277daf51cb11c81c77df14b79f9",
+            "commit": "73f70ea45ddd10b706f6128185704a2d1c33fc43",
             "path": "usage-meter"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@local/mcp-manager",
+      "title": {
+        "en": "MCP Servers",
+        "zh": "MCP 服务器"
+      },
+      "description": {
+        "en": "Register the MCP servers this profile connects to, and let the agent manage them with a tool.",
+        "zh": "注册本配置连接的 MCP 服务器，并让模型用一个工具来管理它们。"
+      },
+      "icon": "icons/local--mcp-manager.svg",
+      "repository": {
+        "url": "https://github.com/yansuui/dsh-plugins.git",
+        "directory": "mcp-manager"
+      },
+      "metadata": {
+        "category": "ui",
+        "labels": [
+          "personal"
+        ],
+        "sortKeys": {
+          "updated": 1792739268
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792739268,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yansuui/dsh-plugins.git",
+            "commit": "73f70ea45ddd10b706f6128185704a2d1c33fc43",
+            "path": "mcp-manager"
           }
         }
       ]
