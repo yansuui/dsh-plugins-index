@@ -193,17 +193,17 @@
           "personal"
         ],
         "sortKeys": {
-          "updated": 1794545020
+          "updated": 1794666256
         }
       },
       "versions": [
         {
           "version": "0.18.1",
-          "publishTimestamp": 1794545020,
+          "publishTimestamp": 1794666256,
           "source": {
             "type": "git",
             "url": "https://github.com/yansuui/dsh-plugins.git",
-            "commit": "a60bcd895f909feb75086d92589c0eb70488cae4",
+            "commit": "d0b731a9c6f68250a7f95f55a17e4c03378003dc",
             "path": "dsh-agent-memory-autofork"
           },
           "engines": {
