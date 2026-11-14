@@ -67,8 +67,8 @@
         "zh": "子代理工坊"
       },
       "description": {
-        "en": "Configure named subagents with their own instructions and model, let DSH delegate to them, and follow each subagent's conversation in a dedicated view.",
-        "zh": "配置带独立指令与模型的具名子代理，让 DSH 随时调用它们，并在专属视图中查看每个子代理的对话。"
+        "en": "Configure named subagents with their own instructions and model routes, set shared backup models for the whole profile plus per-subagent ones, let DSH delegate to them, and follow each subagent's conversation in a dedicated view.",
+        "zh": "配置带独立指令与模型路线的具名子代理，可为整个 Profile 设置通用备选模型、也可为单个子代理设置备选模型，让 DSH 随时调用它们，并在专属视图中查看每个子代理的对话。"
       },
       "icon": "icons/local--subagent-studio.svg",
       "repository": {
@@ -113,22 +113,22 @@
         "directory": "usage-meter"
       },
       "metadata": {
-        "category": "ui",
+        "category": "tools",
         "labels": [
           "personal"
         ],
         "sortKeys": {
-          "updated": 1792739268
+          "updated": 1793258285
         }
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1792739268,
+          "version": "1.1.0",
+          "publishTimestamp": 1793258285,
           "source": {
             "type": "git",
             "url": "https://github.com/yansuui/dsh-plugins.git",
-            "commit": "73f70ea45ddd10b706f6128185704a2d1c33fc43",
+            "commit": "ac1fca1bc629d06168fd41bc5e27f39462f772cb",
             "path": "usage-meter"
           }
         }
