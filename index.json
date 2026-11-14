@@ -170,6 +170,47 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-agent-memory",
+      "title": {
+        "en": "Long-term memory",
+        "zh": "长期记忆"
+      },
+      "description": {
+        "en": "Remember facts, preferences and decisions across Sessions, and recall them with the memory tools.",
+        "zh": "跨会话记住事实、偏好与决定，并用记忆工具随时召回。"
+      },
+      "icon": "icons/dsh-agent-memory.svg",
+      "repository": {
+        "url": "https://github.com/yansuui/dsh-plugins.git",
+        "directory": "dsh-agent-memory-autofork"
+      },
+      "metadata": {
+        "category": "tools",
+        "labels": [
+          "experimental",
+          "personal"
+        ],
+        "sortKeys": {
+          "updated": 1794545020
+        }
+      },
+      "versions": [
+        {
+          "version": "0.18.1",
+          "publishTimestamp": 1794545020,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yansuui/dsh-plugins.git",
+            "commit": "a60bcd895f909feb75086d92589c0eb70488cae4",
+            "path": "dsh-agent-memory-autofork"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
     }
   ]
 }
